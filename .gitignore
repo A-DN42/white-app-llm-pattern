@@ -1,0 +1,195 @@
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.eggs
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+.ropeproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# AI/ML Specific
+# Vector Database (ChromaDB)
+data/chroma_db/
+*.db
+*.sqlite3
+
+# Model files and caches
+models/
+*.bin
+*.safetensors
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Ollama models cache (if storing locally)
+.ollama/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Embeddings cache
+embeddings_cache/
+sentence_transformers/
+
+# Temporary AI processing files
+temp_uploads/
+temp_files/
+*.tmp
+
+# Document Processing
+# Large uploaded files (keep samples but ignore bulk uploads)
+uploads/
+documents/
+files/
+*.pdf
+*.docx
+*.xlsx
+*.csv
+# Exception: keep sample files if any
+!samples/
+!examples/
+
+# Logs
+logs/
+*.log
+*.log.*
+log.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# FastAPI
+.pytest_cache/
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# Docker (if you add it back)
+.dockerignore
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Package manager
+poetry.lock
+Pipfile.lock
+
+# Local configuration files
+config.local.json
+settings.local.py
+local_settings.py
+
+# API keys and secrets (extra safety)
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Performance profiling
+*.prof
+
+# Memory dumps
+*.dmp
+
+# Large datasets
+datasets/
+data/*.csv
+data/*.json
+data/*.parquet
+# Exception: keep small sample data
+!data/samples/
+!data/examples/
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+
+# Node.js (if you add frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+*.pid
+*.seed
+*.pid.lock
+
+# Custom application specific
+# Add any project-specific patterns here
+experimental/
+sandbox/
+research/
