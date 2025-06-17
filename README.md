@@ -324,5 +324,4 @@ This project follows modern software engineering practices:
 - Multi-format file processing capabilities
 
 ## 📄 License
-
-This project is open source and available under the MIT License. 
+HIGLY VIBE CODED
